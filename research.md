@@ -21,3 +21,15 @@ See if a predictor can predict in the top 10%
 5. Input 2026 data to readjust data
 6. Predict Masters London due 6/12
 7. See results
+
+
+## Points To Discuss
+- Initial data (team level)
+    - Tracked FK diff, headshot %, ACS, KDA, Eco round, Pistol round, Map win rate, Opponent map matchup, Map picks/bans
+- Univariate EDA to determine some basic relationships and find out which features may need more investigation
+- Pruning performed on ACS due to similarity with KDA
+- Headshot % not used due to poor univariate performance
+- Bivariate EDA to see relationships between features
+- Grouped EDA to see conditional relationships
+- Different features given different next steps
+- Aggregating, transforming, smoothing/shrinking, and interactions
