@@ -33,3 +33,12 @@ See if a predictor can predict in the top 10%
 - Grouped EDA to see conditional relationships
 - Different features given different next steps
 - Aggregating, transforming, smoothing/shrinking, and interactions
+
+Table	Must be unique on
+kda_table	team
+fk_table	team
+eco_table	team, map
+pistol_table	team, map
+map_pref_table	team, map
+hmwr_table	team, map
+omm_table	team, opponent, map
